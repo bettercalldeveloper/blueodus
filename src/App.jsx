@@ -35,7 +35,7 @@ export default function App() {
         <main className="relative z-10 flex flex-col items-center justify-center flex-grow px-4">
           <div className="text-center space-y-8 max-w-3xl">
             <motion.h1
-              className="text-4xl sm:text-6xl md:text-7xl font-bold text-[#0057D9] tracking-normal leading-tight select-none"
+              className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#0057D9] tracking-normal leading-tight select-none"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
@@ -44,7 +44,7 @@ export default function App() {
             </motion.h1>
 
             <motion.p
-              className="text-base sm:text-lg md:text-xl text-gray-600 font-light leading-relaxed -mt-5"
+              className="text-lg md:text-xl text-gray-600 font-light leading-relaxed -mt-5"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 1 }}
