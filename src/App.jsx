@@ -28,7 +28,7 @@ export default function App() {
               >
                 {code}
               </p>
-            )
+            ),
           )}
         </div>
 
@@ -99,7 +99,7 @@ export default function App() {
               </div>
 
               <p className="text-xs sm:text-sm text-gray-500 mt-10">
-                Yash Kumar, Founder
+                YK, Founder
               </p>
             </motion.div>
           </div>
